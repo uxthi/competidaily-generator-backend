@@ -49,8 +49,6 @@ All pull requests merged on `master` branch will be deployed to AWS lambda as a 
 ### Want to Contribute?
 ---
 
-1. Start by opening an issue on this repo. 
-1.1. If you think you found a bug, try explain it and give as much detail as possible, as well as steps to reproduce your problem.
-1.2. If it's a feature suggestion, please explain what do you want and why should we implement it.
+Start by opening an issue on this repo. If you think you found a bug, try explain it and give as much detail as possible, as well as steps to reproduce your problem. If it's a feature suggestion, please explain what do you want and why should we implement it.
 
 You can always open a PR solving any issue or adding a feature. Please DO NOT open PR without first opening an Issue or making sure that there is already an opened issue. Also, always reference said Issue on your pull request.
