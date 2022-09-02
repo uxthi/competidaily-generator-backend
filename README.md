@@ -44,7 +44,7 @@ $ cd npm install
 ### Deploy
 ---
 
-All pull requests merged on main branch will be deployed to AWS lambda as a github action.
+All pull requests merged on `master` branch will be deployed to AWS lambda as a github action.
 
 ### Want to Contribute?
 ---
