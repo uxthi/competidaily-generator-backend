@@ -1,4 +1,4 @@
-# Competidaily Generator GET THEMES backend
+# Competidaily Generator backend - GET THEMES
 
 This repo contains the GET requisition used as a lambda function to retrieve a random theme from the competidaily database.
 
