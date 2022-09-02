@@ -27,7 +27,7 @@ jobs:
         uses: yvesgurcan/deploy-lambda-function@v0.0.5
         with:
           package: bundle.zip
-          function-name: getAllCompetidailies
+          function-name: getAllCompetidailyThemes
           AWS_SECRET_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_SECRET_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_REGION: ${{ secrets.AWS_REGION }}
