@@ -28,15 +28,7 @@ exports.handler = async (event, context) => {
   are processed when the Lambda function is next invoked, if AWS Lambda chooses to use the frozen process. */
   context.callbackWaitsForEmptyEventLoop = false;
 
-  // get an instance of the db
   const db = await connectToDatabase();
-
-  // make a query
-  // const themes = await db
-  //   .collection("competidailies")
-  //   .find({})
-  //   .limit(20)
-  //   .toArray();
 
   const randomTheme = await db
     .collection("competidailies")
