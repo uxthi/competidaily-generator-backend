@@ -1,6 +1,6 @@
 ---
-name: Custom issue template
-about: Describe this issue template's purpose here.
+name: New issue template
+about: Please use this template before opening an issue.
 title: "[BUG OR FEATURE] <Issue title>"
 labels: ''
 assignees: ''
