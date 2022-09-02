@@ -26,8 +26,7 @@ jobs:
       - name: Deploy AWS Lambda function
         uses: yvesgurcan/deploy-lambda-function@v0.0.5
         with:
-          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws_region: us-east-1
-          function_name: getAllCompetidailyThemes
-          zip_file: bundle.zip
+          package: bundle.zip
+          AWS_REGION:: us-east-1
+          AWS_SECRET_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
