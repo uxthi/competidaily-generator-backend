@@ -1,11 +1,6 @@
 name: deploy to lambda
 on: [push]
 jobs:
-  job1:
-    runs-on: ubuntu-latest
-    steps:
-     - name: step1
-       run: echo "${{ secrets.AWS_ACCESS_KEY_ID }}"
   deploy_source:
     name: build and deploy lambda
     strategy:
