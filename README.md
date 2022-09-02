@@ -21,7 +21,7 @@ Contents
 ```bash
 $ git clone https://github.com/uxthi/competidaily-generator-backend.git
 $ cd competidaily-generator-backend
-$ cd npm install
+$ npm install
 ```
 
 #### Structure
